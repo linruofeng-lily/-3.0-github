@@ -1,0 +1,6 @@
+interface:
+  display_name: "风格3.0"
+  short_description: "锁定产品功能，融合可选风格参考，分层重构外观并生成可检查的设计提案"
+  default_prompt: "使用 $style-3-0，根据产品参考图重构外观；如提供风格图，请提取其设计语言，先生成主视图。"
+policy:
+  allow_implicit_invocation: true

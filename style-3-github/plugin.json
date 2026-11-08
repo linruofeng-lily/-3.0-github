@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "style-3-0",
+  "version": "3.0.0",
+  "description": "产品功能锁定、可选风格迁移与分层外观重构",
+  "author": {
+    "name": "Personal"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "风格3.0",
+        "shortDescription": "产品功能锁定、可选风格迁移与分层外观重构",
+        "longDescription": "产品功能锁定、可选风格迁移与分层外观重构",
+        "developerName": "Personal",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "使用 $style-3-0，根据参考图重新设计产品外观。"
+      }
+    }
+  }
+}
